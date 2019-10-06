@@ -31,6 +31,8 @@ dependencies {
     compile("io.ktor:ktor-server-core:$ktor_version")
     compile("io.ktor:ktor-html-builder:$ktor_version")
     compile("org.jetbrains:kotlin-css-jvm:1.0.0-pre.31-kotlin-1.2.41")
+    compile("io.ktor:ktor-client-core:$ktor_version")
+    compile("io.ktor:ktor-client-okhttp:$ktor_version")
     testCompile("io.ktor:ktor-server-tests:$ktor_version")
 }
 
